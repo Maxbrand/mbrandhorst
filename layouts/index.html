@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<main>
+
+    <div class="intro" width=100%>
+
+        {{ with .Site.Params.profilePic }}
+        <img class="profile" src="{{ . }}"> {{ end }}
+            <video src=/videos/tests.webm/ width=100% onclick="this.paused?this.play():this.pause();">
+
+            <h2>{{ markdownify .Site.Params.Description }}</h2>
+
+    </div>
+
+</main>
+
+{{ partial "footer" . }}
