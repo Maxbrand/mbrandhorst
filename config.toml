@@ -1,7 +1,7 @@
 baseURL = "hmbrandhorst.com/"
 languageCode = "en-us"
 title = "DoP Max Brandhorst-Satzkorn"
-cdtheme = "minimal"
+hugpcdtheme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
