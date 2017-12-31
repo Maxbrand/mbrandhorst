@@ -3,15 +3,20 @@ html, body {
 }
 
 body {
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 
 main {
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
     max-width: 100%;
     max-height: 100%;
+}
+
+h2 {
+    color: #111010;
+    font-size: 12vh;
 }
 
 /*footer*/
@@ -23,7 +28,7 @@ main {
 /*home page*/
 
 .intro {
-    padding: 20px;   
+    padding: 0px;   
 }
 
 .intro > h1 {
@@ -87,6 +92,5 @@ img {
 }
 
 video {
-    align-content: center;
-    padding: 11px;
+    margin-top: -0px;
 }
