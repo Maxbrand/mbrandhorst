@@ -4,9 +4,7 @@ html, body {
 
 body {
     padding-top: 0px;
-    display: flex;
     text-align: center;
-    flex-direction: column;
 }
 
 main {
@@ -89,6 +87,7 @@ img {
 }
 
 video {
-    align-content: center
+    align-content: center;
+    padding: 11px;
 }
 ]
