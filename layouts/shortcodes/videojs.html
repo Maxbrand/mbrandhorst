@@ -1,0 +1,15 @@
+<script src="//vjs.zencdn.net/4.11/video.js"></script>
+<!-- The video -->
+<video class="video-js vjs-default-skin" controls preload="auto"
+width="80%" height="80%" {{ with .Get "poster" }} poster="{{ . }}" {{ end }} data-setup='{}'>
+	{{ with .Get "src" }}
+	<source src="/static/videos/test.mp4" type="video/mp4" />
+	<source src="/static/videos/test.webm" type="video/webm" />
+	{{ end}}
+	{{ with .Get "vtt" }}
+	<track kind="captions" label="English" src="{{ . }}" srclang="en" default />
+	{{ end }}
+	<p class="vjs-no-js">
+		Please enable JavaScript or consider upgrading to a modern browser.
+	</p>
+</video>
