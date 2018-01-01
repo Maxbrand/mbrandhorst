@@ -4,14 +4,17 @@
 
     <div class="intro" width=100%>
 
-        {{ with .Site.Params.profilePic }}
-        <img class="profile" src="{{ . }}"> {{ end }}
-            <video src=/videos/tests.webm/ width=80% onclick="this.paused?this.play():this.pause();">
-
-            <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <video id="reel" src=/videos/tests.webm/ width=80%>
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
 
     </div>
 
 </main>
 
 {{ partial "footer" . }}
+
+<script>
+    $('video').click(function() {
+        this.paused?this.play():this.pause()
+    });
+</script>

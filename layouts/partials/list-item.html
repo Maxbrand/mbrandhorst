@@ -17,11 +17,7 @@
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
     <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
-    <h5>{{ $.Scratch.Get "subtitle" }}</h5>
-    {{ range .Params.tags }}
-    <a href="{{ $.Site.BaseURL }}tags/{{ . }}">
-        <kbd class="item-tag">{{ . }}</kbd>
-    </a>
-    {{ end }}
+    <h5 class="subtitle">{{ $.Scratch.Get "subtitle" }}</h5>
+    <video src="{{ .Params.clip }}"></video>
 
 </div>
