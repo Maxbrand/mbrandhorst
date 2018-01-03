@@ -1,0 +1,9 @@
+---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+description: ""
+repo: ""
+tags: []
+weight: 0
+draft: false
+type: blogindex
+---

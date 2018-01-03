@@ -1,5 +1,4 @@
 <div class="item">
-
     {{ $.Scratch.Set "link" .RelPermalink }}
     {{ with .Params.repo }}
         {{ $repoHost := default "github" $.Params.repoHost }}
@@ -16,7 +15,8 @@
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
-    <video src="{{ .Params.clip }}"></video>
     <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
     <h5 class="subtitle">{{ $.Scratch.Get "subtitle" }}</h5>
+    <p>.Summary</p>
 </div>
+    
