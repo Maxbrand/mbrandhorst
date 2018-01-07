@@ -25,6 +25,10 @@ h2 {
     font-size: 12vh;
 }
 
+.t1 {
+    color:#e0e0e0
+}
+
 .summary {
     font-size: 1vh;
     color: #e0e0e0;
@@ -56,9 +60,6 @@ video {
     margin-top: 0px;
 }
 
-video[poster] {
-    object-fit: fill;
-}
 
 .grid {
     grid-area: main;

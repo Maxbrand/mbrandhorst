@@ -4,7 +4,7 @@
 
     <div class="intro" width=100%>
 
-        <video autoplay loop muted="true" id="reel" src=/videos/tests.webm/ width=80%>
+        <video onclick="this.paused ? this.play() : this.pause();" autoplay loop muted="true" id="reel" src=/videos/tests.webm/ width=80%>
         <h2>{{ markdownify .Site.Params.Description }}</h2>
 
     </div>
@@ -13,8 +13,3 @@
 
 {{ partial "footer" . }}
 
-<script>
-    $('video').click(function() {
-        this.paused?this.play():this.pause()
-    });
-</script>

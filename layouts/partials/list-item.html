@@ -12,24 +12,28 @@
         {{ end }}
     {{ end }}
     {{ with .Params.link }} {{ $.Scratch.Set "link" . }} {{ end }}
-
-
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
-    <video poster="{{ .Params.clip }}.jpg" controls>
+    <video id="{{ .Params.id }}" onclick="this.paused ? this.play() : this.pause();" poster="{{ .Params.clip }}.jpg">
         <source src="{{ .Params.clip }}.webm" type="video/webm"> 
         <source src="{{ .Params.clip }}.mp4" type="video/mp4">
         
         I'm sorry; your browser doesn't support HTML5 video. Try updating your browser.
     </video>
-    <h4><a>{{ .Title }}</a></h4>
+    <h4 class="t1">{{ .Title }}</h4>
     <h5 class="subtitle">{{ $.Scratch.Get "subtitle" }}</h5>
 </div>
 
+<script type="text/javascript">
+    (function(window) {
+        function setupVideo()
+        {
+            var v = document.getElementById("{{ .Params.id }}");
+            v.addEventListener('mouseover', function() { this.controls = true; }, false);
+            v.addEventListener('mouseout', function() { this.controls = false; }, false);
+        }
 
-<script>
-    $('video').click(function() {
-        this.paused?this.play():this.pause()
-    });
+        window.addEventListener('load', setupVideo, false);
+    })(window);
 </script>
