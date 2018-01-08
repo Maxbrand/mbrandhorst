@@ -5,6 +5,6 @@ repo: "#" # delete this line if you want blog-like posts for projects
 tags: ["bootstrap", "responsive"]
 weight: 3
 draft: false
-clip: /videos/Kaffe
+clip: Kaffe
 id: Kaffe
 ---
