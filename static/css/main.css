@@ -67,8 +67,8 @@ video {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "main main";
-    grid-gap: 10px;
-    padding: 20px;
+    grid-gap: 0px;
+    padding: 0px;
 }
 
 @media (max-width: 720px) {
@@ -87,7 +87,7 @@ video {
         grid-template-areas: 
         "main"
         "main";
-        grid-gap: 20px;
+        grid-gap: 0px;
      }
 }
 
