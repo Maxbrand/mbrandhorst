@@ -69,7 +69,6 @@ video {
     "main main";
     grid-gap: 0px;
     padding: 0px;
-    overflow: scroll
 }
 
 @media (max-width: 720px) {
