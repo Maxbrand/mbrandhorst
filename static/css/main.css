@@ -9,7 +9,7 @@ html, body {
 } 
 
 body {
-    padding-top: 50px;
+    padding-top: 42px;
     text-align: center;
 }
 
@@ -69,6 +69,7 @@ video {
     "main main";
     grid-gap: 0px;
     padding: 0px;
+    overflow: scroll
 }
 
 @media (max-width: 720px) {
