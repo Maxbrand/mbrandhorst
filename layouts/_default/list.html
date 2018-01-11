@@ -7,7 +7,7 @@
     </div>
     {{ else }}
     <div class="grid">
-        {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+        {{ range (.Paginator 20).Pages }} {{ partial "list-item" . }} {{ end }}
     </div>
     {{ end }}
 </main>
