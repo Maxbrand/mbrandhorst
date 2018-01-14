@@ -168,5 +168,6 @@ a:hover {
 }
 
 #reel {
-    width: 60%;
+    width: 100%;
+    padding-top: 9px;
 }
