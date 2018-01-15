@@ -32,7 +32,7 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:max@mbrandhorst.com"
+    url = "mailto:max.brandhorst@gmail.com"
     name = "envelope-o"
     weight = 1
 
