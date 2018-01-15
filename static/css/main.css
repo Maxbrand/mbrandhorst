@@ -168,14 +168,14 @@ a:hover {
     border-top: var(--border-width) solid var(--accent);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #reel
     {
         width: 100%;
         padding-top:8px
     }
 }
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     #reel
     {
     width: 50%;
