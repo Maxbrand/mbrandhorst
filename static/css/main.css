@@ -131,6 +131,10 @@ video {
 
 /*apply accent colour to links*/
 
+a {
+    font-size:18px;
+}
+
 a:link, a:visited {
     color: var(--accent);
 }
