@@ -166,14 +166,8 @@ a:hover {
 
 .navbar.navbar-default.navbar-fixed-top {
     background: transparent;
+    border: transparent;
 }
-
-.navbar-default {
-    border-color: transparent;
-}
-
-
-
 
 
 @media (max-width: 900px) {
