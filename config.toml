@@ -40,8 +40,3 @@ googleAnalytics = "UA-49575020-1"
     url = "https://instagram.com/maxbrandop/"
     name = "instagram"
     weight = 2
-
-[[menu.icon]]
-    url = "tel://0706081728"
-    name = "phone"
-    weight = 3
