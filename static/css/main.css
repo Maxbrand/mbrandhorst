@@ -164,9 +164,16 @@ a:hover {
 
 /*coloured borders at top and bottom of the page*/
 
-.navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
+.navbar.navbar-default.navbar-fixed-top {
+    background: transparent;
 }
+
+.navbar-default {
+    border-color: transparent;
+}
+
+
+
 
 
 @media (max-width: 900px) {
