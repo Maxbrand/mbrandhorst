@@ -132,11 +132,23 @@ video {
 /*apply accent colour to links*/
 
 a {
-    font-size:18px;
+    font-size:22px;
+    font-weight: 800;
+}
+
+
+.fa:before {
+    font-size: 23px;
+    color: #ffffffef;
+}
+
+.fa:hover:before {
+    color: #6d76cc;
+    font-style: bold;
 }
 
 a:link, a:visited {
-    color: var(--accent);
+    color: var(#ffffff);
 }
 
 a.icon:hover {
@@ -168,7 +180,6 @@ a:hover {
 }
 
 /*coloured borders at top and bottom of the page*/
-
 
 @media (min-width: 900px) {
 .navbar.navbar-default.navbar-fixed-top {
