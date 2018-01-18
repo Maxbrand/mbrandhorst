@@ -159,6 +159,12 @@ a:hover {
     color: var(--accent) !important;
 }
 
+@media (min-width: 900px) {
+    .fa.fa-phone {
+        opacity: 0
+    }
+}
+
 /*paginator at bottom of list view*/
 
 .pages {
