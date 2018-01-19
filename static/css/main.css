@@ -136,17 +136,19 @@ a {
     font-weight: 800;
 }
 
-
-.fa:before {
-    font-size: 23px;
-    color: #ffffffef;
+@media (min-width: 900px) {
+    .fa:before {
+        font-size: 23px;
+        color: #ffffffef;
+    }
 }
+@media (min-width: 900px) {
+    .fa:hover:before {
+        color: #6d76cc;
+        font-style: bold;
+    }
 
-.fa:hover:before {
-    color: #6d76cc;
-    font-style: bold;
 }
-
 a:link, a:visited {
     color: var(#ffffff);
 }
