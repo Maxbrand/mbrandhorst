@@ -41,3 +41,8 @@ googleAnalytics = "UA-49575020-1"
     name = "instagram"
     weight = 2
 
+[[menu.icon]]
+    url = "https://www.facebook.com/max.brandhorst"
+    name = "facebook"
+    weight = 3
+
