@@ -261,3 +261,10 @@ a:hover {
 
 }
 }
+
+@media (min-width:768px) {
+    .navbar-default {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+}
