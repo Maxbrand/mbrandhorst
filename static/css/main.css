@@ -244,10 +244,20 @@ a:hover {
     }
 }
 
-.banner {
-    padding-top: 20px;
-    font-family: Homemade Apple;
-    font-size: 30px;
-    color: #ffffffef;
-    padding-right: 150px;
+
+@media (min-width: 900px){
+    .banner {
+        padding-top: 20px;
+        font-family: Homemade Apple;
+        font-size: 30px;
+        color: #ffffffef;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width:900px) {
+    .banner {
+    display: none;
+
+}
 }
