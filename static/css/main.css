@@ -209,6 +209,7 @@ a:hover {
 @media (min-width: 768px){
     .navbar-right {
         margin-top: -60px !important;
+        margin-left: 0px;
     }
 }
 
@@ -218,6 +219,14 @@ a:hover {
         margin-left: 60px !important;
     }
 }
+
+@media (max-width: 768px){
+    .navbar-right {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
 
 
 @media (max-width: 768px) {
