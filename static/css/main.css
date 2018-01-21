@@ -76,6 +76,7 @@ video {
     "main main";
     grid-gap: 0px;
     padding: 0px;
+    padding-top: 80px;
 }
 
 @media (max-width: 768px) {
@@ -211,6 +212,13 @@ a:hover {
     }
 }
 
+@media (max-width: 990px){
+    .navbar-right {
+        margin-top: -50px !important;
+        margin-left: 60px !important;
+    }
+}
+
 
 @media (max-width: 768px) {
     #reel
@@ -259,6 +267,12 @@ a:hover {
 }
 }
 
+@media (max-width:990px) {
+    .banner {
+    font-size: 20px;
+    }
+}
+
 @media (min-width:768px) {
     .navbar-default {
         background-color: transparent !important;
@@ -280,6 +294,14 @@ a:hover {
     padding-top: 0px;
     max-width:30%;
 }
+
+@media (max-width:768px){
+    #aboutphoto {
+        max-width:50%;
+    }
+}
+
+
 
 .about {
     color:#ffffffef;
