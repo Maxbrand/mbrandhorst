@@ -2,31 +2,8 @@
 
 <main>
 
-    <div class="intro" width=100%>
-
-        <video onclick="this.paused ? this.play() : this.pause();" autoplay loop muted="true" id="reel" width="100%">
-            <source src="https://s3.eu-central-1.amazonaws.com/mbrandhorst/Reel.webm" type="video/webm"> 
-             <source src="https://s3.eu-central-1.amazonaws.com/mbrandhorst/Reel.mp4" type="video/mp4">
-
-            <video/>
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
-
     </div>
 
 </main>
 
 {{ partial "footer" . }}
-
-
-<script type="text/javascript">
-    (function(window) {
-        function setupVideo()
-        {
-            var v = document.getElementById("reel");
-            v.addEventListener('mouseover', function() { this.controls = true; }, false);
-            v.addEventListener('mouseout', function() { this.controls = false; }, false);
-        }
-
-        window.addEventListener('load', setupVideo, false);
-    })(window);
-</script>
