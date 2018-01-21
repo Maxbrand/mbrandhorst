@@ -268,3 +268,26 @@ a:hover {
         border-color: transparent !important;
     }
 }
+
+#aboutme {
+    padding-top: 80px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+#aboutmain {
+    padding-top: 120px;
+}
+
+#aboutphoto {
+    padding-top: 0px;
+    max-width:30%;
+}
+
+.about {
+    color:#ffffffef;
+}
+
+#aboutcontact {
+    font-size: 15px;
+}
