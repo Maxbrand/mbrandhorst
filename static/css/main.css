@@ -310,7 +310,11 @@ a:hover {
     }
 }
 
-
+#experience {
+    padding-top: 40px;
+    display: inline-block;
+    text-align: left;
+}
 
 .about {
     color:#ffffffef;
