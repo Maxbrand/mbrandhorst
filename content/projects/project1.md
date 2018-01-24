@@ -1,6 +1,7 @@
 ---
 title: "Vow of Seth - The Soul Exchange"
-description: "Music Video"
+description: "Vow of Seth - The Soul Exchange" 
+production: "Prod: Najka Pictures"
 repo: "#" # delete this line if you want blog-like posts for projects
 tags: ["go", "golang", "hugo"]
 weight: 1

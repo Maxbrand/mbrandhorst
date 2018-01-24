@@ -61,6 +61,7 @@ img {
 
 video {
     margin-top: 0px;
+    width: 100%;
 }
 .projectsvideo:before {
     opacity: .5;
@@ -155,6 +156,7 @@ a {
     .fa:hover:before {
         color: #6d76cc;
         font-style: bold;
+        transition: color .2s;
     }
 
 }
@@ -202,7 +204,7 @@ a:hover {
 .navbar.navbar-default.navbar-fixed-top {
         background: transparent;
         border: transparent;
-        padding-right: 150px;
+        padding-right: 170px;
     }
 }
 
@@ -255,6 +257,7 @@ a:hover {
 @media (min-width: 768px) {
     .navbar-default .navbar-nav>li>a:hover {
         color: #cc6dbc !important;
+        transition: color .2s;
     }
 }
 
@@ -280,6 +283,11 @@ a:hover {
     .banner {
     font-size: 20px;
     }
+}
+
+.banner:hover {
+    color: #cb63d4;
+    transition: color .5s;
 }
 
 @media (min-width:768px) {
@@ -323,3 +331,38 @@ a:hover {
 #aboutcontact {
     font-size: 15px;
 }
+
+.vowofsethitem {
+    background: rgba(68, 83, 170, 0.3);
+    transition: opacity .5s, visibility .5s;
+    opacity: 0;
+    }
+
+.vowofsethitem:hover {
+    opacity: 1;
+}
+
+.hovertext {
+    color: #FFFFFF;   
+}
+
+.blinditem {
+    background: rgba(68, 83, 170, 0.3);
+    transition: opacity .5s, visibility .5s;
+    opacity: 0;
+    }
+
+.blinditem:hover {
+    opacity: 1;
+}
+
+.kaffeitem {
+    background: rgba(68, 83, 170, 0.3);
+    transition: opacity .5s, visibility .5s;
+    opacity: 0;
+    }
+
+.kaffeitem:hover {
+    opacity: 1;
+}
+
