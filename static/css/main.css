@@ -162,8 +162,10 @@ a {
 
 }
 
-a {
-    color: #e2e2e2 !important;
+@media (min-width: 768px) {
+        a {
+        color: #e2e2e2 !important;
+    }
 }
 
 a.icon:hover {
