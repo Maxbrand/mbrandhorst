@@ -332,7 +332,7 @@ a:hover {
     font-size: 15px;
 }
 
-.vowofsethitem {
+/* .vowofsethitem {
     background: rgba(68, 83, 170, 0.3);
     transition: opacity .5s, visibility .5s;
     opacity: 0;
@@ -344,25 +344,6 @@ a:hover {
 
 .hovertext {
     color: #FFFFFF;   
-}
+}*/
 
-.blinditem {
-    background: rgba(68, 83, 170, 0.3);
-    transition: opacity .5s, visibility .5s;
-    opacity: 0;
-    }
-
-.blinditem:hover {
-    opacity: 1;
-}
-
-.kaffeitem {
-    background: rgba(68, 83, 170, 0.3);
-    transition: opacity .5s, visibility .5s;
-    opacity: 0;
-    }
-
-.kaffeitem:hover {
-    opacity: 1;
-}
 

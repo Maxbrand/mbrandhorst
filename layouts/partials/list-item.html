@@ -1,6 +1,4 @@
-<div class="{{ .Params.id }}item">
-    <p class="hovertext"><b>{{ .Params.title }}</b> <br> <i>{{ .Params.production }}</i></p>
-
+<div class="item">
     {{ $.Scratch.Set "link" .RelPermalink }}
     {{ with .Params.repo }}
         {{ $repoHost := default "github" $.Params.repoHost }}
