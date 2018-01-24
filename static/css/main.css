@@ -13,6 +13,7 @@ body {
     padding-top: 0px;
     text-align: center;
     font-size: 18px;
+    color: #e2e2e2;
     }
 
 main {
@@ -267,7 +268,7 @@ a:hover {
         padding-top: 20px;
         font-family: Homemade Apple;
         font-size: 30px;
-        color: #ffffffef;
+        color: #e2e2e2;
         padding-right: 150px;
     }
 }
@@ -325,7 +326,7 @@ a:hover {
 }
 
 .about {
-    color:#ffffffef;
+    color:#e2e2e2;
 }
 
 #aboutcontact {
