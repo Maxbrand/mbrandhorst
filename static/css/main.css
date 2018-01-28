@@ -222,8 +222,7 @@ a:hover {
 @media (max-width: 768px){
     .navbar-right {
         margin-top: 0px !important;
-        margin-left: 0px !important;
-    }
+        }
 }
 
 
