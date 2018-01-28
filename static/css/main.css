@@ -221,8 +221,8 @@ a:hover {
 
 @media (max-width: 990px){
     .navbar-right {
-        margin-top: -50px !important;
-        margin-left: 60px !important;
+        padding-top: -50px !important;
+        padding-left: 60px !important;
     }
 }
 

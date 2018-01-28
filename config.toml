@@ -1,13 +1,13 @@
 baseURL = "https://mbrandhorst.com/"
 languageCode = "en-us"
-title = "Max Brandhorst-Satzkorn"
+title = "DoP Max Brandhorst"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = "UA-49575020-1"
 
 [params]
     author = "Max Brandhorst"
-    description = "Director of Photography"
+    description = "DoP Max Brandhorst"
     githubUsername = "maxbrand"
     accent = "white"
     showBorder = false
