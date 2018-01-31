@@ -289,7 +289,7 @@ a:hover {
     }
 }
 
-.banner:hover {
+.bannertext:hover {
     color: #cb63d4;
     transition: color .5s;
 }
