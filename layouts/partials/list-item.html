@@ -14,24 +14,8 @@
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
-    <video id="{{ .Params.id }}"  onclick="this.paused ? this.play() : this.pause();" poster="https://s3.eu-central-1.amazonaws.com/mbrandhorst/{{ .Params.clip }}.jpg">
-        <source src="https://s3.eu-central-1.amazonaws.com/mbrandhorst/{{ .Params.clip }}.webm" type="video/webm"> 
-        <source src="https://s3.eu-central-1.amazonaws.com/mbrandhorst/{{ .Params.clip }}.mp4" type="video/mp4">
-        
-        I'm sorry; your browser doesn't support HTML5 video. Try updating your browser.
-    </video>
+    <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+            <iframe src="//player.vimeo.com/video/{{ .Params.vimeo }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
     
 </div>
-
-<script type="text/javascript">
-    (function(window) {
-        function setupVideo()
-        {
-            var v = document.getElementById("{{ .Params.id }}");
-            v.addEventListener('mouseover', function() { this.controls = true; }, false);
-            v.addEventListener('mouseout', function() { this.controls = false; }, false);
-        }
-
-        window.addEventListener('load', setupVideo, false);
-    })(window);
-</script>

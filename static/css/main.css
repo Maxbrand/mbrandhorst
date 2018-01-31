@@ -328,6 +328,10 @@ a:hover {
     font-size: 15px;
 }
 
+iframe {
+    border-width: 0px !important;
+}
+
 /* .vowofsethitem {
     background: rgba(68, 83, 170, 0.3);
     transition: opacity .5s, visibility .5s;
