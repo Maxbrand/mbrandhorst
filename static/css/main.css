@@ -230,6 +230,18 @@ a2 {
     font-family: Homemade Apple
 }
 
+@media (min-width:768px) {
+    #IGicon
+    {
+        display:none;
+    }
+}
+
+#IGicon {
+    padding-top: 20px;
+}
+
+
 @media (max-width: 768px) {
     #reel
     {
