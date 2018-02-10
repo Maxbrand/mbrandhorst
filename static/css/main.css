@@ -304,10 +304,7 @@ a2 {
     }
 }
 
-.bannertext:hover {
-    color: #cb63d4;
-    transition: color .5s;
-}
+
 
 
 @media (min-width:768px) {
