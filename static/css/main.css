@@ -239,8 +239,12 @@ a2 {
 
 #IGicon {
     padding-top: 20px;
+    color: white;
 }
 
+#IGicon:hover {
+    color: #cc6dbc;
+}
 
 @media (max-width: 768px) {
     #reel
